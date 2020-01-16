@@ -4,4 +4,4 @@ RUN apk add --no-cache curl && \
     apk add --no-cache jq && \
     apk add --no-cache bc
 
-COPY run_test.sh /
+COPY run_test.sh /usr/local/bin
